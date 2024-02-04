@@ -1,0 +1,76 @@
+.column {
+    float: left;
+    width: 70%;
+    background-color: #ffffff27;
+  }
+  
+  /* Clear floats after the columns
+  .container:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  } */
+
+  .container {
+    display: flex;
+    
+  }
+  
+  .grey-light-column {
+    flex: 50%;
+    background-color: rgba(135, 233, 250, 0.315);
+  }
+
+  .email-button {
+
+    display: inline-block;
+    
+    padding: 10px 20px;
+    
+    background-color: black;
+    
+    color: #fff;
+    
+    text-decoration: none;
+    
+    border-radius: 5px;
+    
+    font-weight: bold;
+    
+    transition: background-color 0.3s ease;
+    
+    }
+    
+    
+    .email-button:hover {
+    
+    background-color: black;
+    
+    }
+
+    .tooltip-btn {
+        padding: 10px;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 15px;
+        width: 250px;
+        cursor: pointer;
+    }
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .column {
+        flex: 1;
+        height: 100vh;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
